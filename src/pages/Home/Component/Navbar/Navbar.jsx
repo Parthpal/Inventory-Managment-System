@@ -32,7 +32,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end hidden md:flex -mt-8">
-                <a className="btn">Button</a>
+                <a className="btn">Free Download</a>
             </div>
             <div className='navbar-end sm:block md:hidden'>
                     <a className="btn btn-ghost text-xl">Fusion Inventory</a>           
