@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     return (<>
@@ -14,6 +15,7 @@ const Navbar = () => {
                     <li><a>Register</a></li>
                     <li><a>Create Store</a></li>
                     <li><a>Watch Demo</a></li>
+                    <Link to='/dashboard'>Dashboard</Link>
                 </ul>
                 </div>
                 <div className='hidden md:block'>
@@ -29,6 +31,7 @@ const Navbar = () => {
                     <li><a>Register</a></li>
                     <li><a>Create Store</a></li>
                     <li><a>Watch Demo</a></li>
+                    <Link to='/dashboard'>Dashboard</Link>
                 </ul>
             </div>
             <div className="navbar-end hidden md:flex -mt-8">
