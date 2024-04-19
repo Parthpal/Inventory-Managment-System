@@ -3,6 +3,7 @@ import MainLayout from "../Layouts/MainLayout/MainLayout";
 import Home from "../pages/Home/Home";
 import ErrorPage from "../../ErrorPage";
 import DashboardLayout from "../Layouts/DashboardLayout/DashboardLayout";
+import CreateStore from "../pages/CreateStore/CreateStore";
 
 
 const MainRoute = createBrowserRouter([
@@ -15,6 +16,10 @@ const MainRoute = createBrowserRouter([
         path: "/",
         element: <Home/>
         },
+        {
+          path:"/createStore",
+          element:<CreateStore/>
+        }
     ],
     },
     {

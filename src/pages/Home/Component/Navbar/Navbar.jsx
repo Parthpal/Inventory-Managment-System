@@ -13,8 +13,8 @@ const Navbar = () => {
                     <li><a>Home</a></li>
                     <li><a>Login</a></li>
                     <li><a>Register</a></li>
-                    <li><a>Create Store</a></li>
                     <li><a>Watch Demo</a></li>
+                    <Link to='/createStore'>Create Store</Link>   
                     <Link to='/dashboard'>Dashboard</Link>
                 </ul>
                 </div>
@@ -29,9 +29,9 @@ const Navbar = () => {
                 <li><a>Home</a></li>
                     <li><a>Login</a></li>
                     <li><a>Register</a></li>
-                    <li><a>Create Store</a></li>
                     <li><a>Watch Demo</a></li>
-                    <Link to='/dashboard'>Dashboard</Link>
+                    <li><Link to='/createStore'>Create Store</Link></li> 
+                    <li><Link to='/dashboard'>Dashboard</Link></li>
                 </ul>
             </div>
             <div className="navbar-end hidden md:flex -mt-8">
